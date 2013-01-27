@@ -16,7 +16,9 @@ LINKS =  (('Thore, my dad', 'http://thore.no'),
           ('Eliksir, my company', 'http://e5r.no'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'http://twitter.com/fdanielsen'),
+          ('Instagram', 'http://instagram.com/fdanielsen'),
+          ('Facebook', 'http://facebook.com/FrodeDanielsen'),
+          ('LinkedIn', 'http://no.linkedin.com/in/fdanielsen'),)
 
 DEFAULT_PAGINATION = 10
