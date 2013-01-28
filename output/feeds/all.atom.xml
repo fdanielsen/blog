@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/all.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-01-27T04:21:00+01:00</updated><entry><title>Endtroducing…</title><link href="http://frode.danielsen.net/blog/endtroducing.html" rel="alternate"></link><updated>2013-01-27T04:21:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-01-27:endtroducing.html</id><summary type="html">&lt;p&gt;Hello, world! Famous first hacker words, famous last blog words[1]? It's been
-quite a few years thinking &amp;quot;I should get a blog up&amp;quot;, with some failed &amp;quot;down the rabbit hole&amp;quot;
-attempts, but hopefully we're all set for a fun ride this time.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/all.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-01-27T04:21:00+01:00</updated><entry><title>Endtroducing…</title><link href="http://frode.danielsen.net/blog/endtroducing.html" rel="alternate"></link><updated>2013-01-27T04:21:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-01-27:endtroducing.html</id><summary type="html">&lt;p&gt;Hello, world! Famous first hacker words, famous last blog words &lt;a class="footnote-reference" href="#id3" id="id1"&gt;[1]&lt;/a&gt;? It's been
+quite a few years thinking &amp;quot;I should get a blog up&amp;quot;, with some failed
+&amp;quot;down the rabbit hole&amp;quot; attempts, but hopefully we're all set for a fun ride
+this time.&lt;/p&gt;
 &lt;p&gt;This will be my personal outlet – what else are blogs? – but the plan has not
 been written yet. It will probably not have any sharp focus, at least not
 sharper a focus than my life and thoughts (which can be quite blurry at times).&lt;/p&gt;
@@ -15,21 +16,21 @@ moves along and content is written, I hope to also mold a more personal design
 too. And the content structure will very much be formed as I go along, typing
 words into vim and saving it in files (sounds easy, doesn't it?).&lt;/p&gt;
 &lt;p&gt;And what do you know? We've already covered Python programming (with &lt;a class="reference external" href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;),
-and music[2].&lt;/p&gt;
+and music &lt;a class="footnote-reference" href="#id4" id="id2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Anyway, it's been nice meeting you, and I hope we meet again sometime soon.&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id1" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;WordPress, one of the most used blogging platforms, comes with a
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;WordPress, one of the most used blogging platforms, comes with a
 pre-installed post titled &amp;quot;Hello, World!&amp;quot;. &lt;a class="reference external" href="http://www.google.no/#hl=en&amp;amp;q=hello+world+%22welcome+to+wordpress%22"&gt;Google shows us&lt;/a&gt; there's plenty of
 blogs with that post, and many probably never wrote any other posts after
 setting things up.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="id4" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[2]&lt;/td&gt;&lt;td&gt;The title shamelessly refers to the debut album &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Endtroducing"&gt;Endtroducing…&lt;/a&gt; by &lt;a class="reference external" href="http://en.wikipedia.org/wiki/DJ_Shadow"&gt;DJ Shadow&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The title shamelessly refers to the debut album &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Endtroducing"&gt;Endtroducing…&lt;/a&gt; by &lt;a class="reference external" href="http://en.wikipedia.org/wiki/DJ_Shadow"&gt;DJ Shadow&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 </summary></entry></feed>

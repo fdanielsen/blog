@@ -4,9 +4,10 @@ Endtroducing…
 :date: 2013-01-27 04:21
 :summary: The first words of the blog that never started.
 
-Hello, world! Famous first hacker words, famous last blog words[1]? It's been
-quite a few years thinking "I should get a blog up", with some failed "down the rabbit hole"
-attempts, but hopefully we're all set for a fun ride this time.
+Hello, world! Famous first hacker words, famous last blog words [1]_? It's been
+quite a few years thinking "I should get a blog up", with some failed
+"down the rabbit hole" attempts, but hopefully we're all set for a fun ride
+this time.
 
 This will be my personal outlet – what else are blogs? – but the plan has not
 been written yet. It will probably not have any sharp focus, at least not
@@ -24,7 +25,7 @@ too. And the content structure will very much be formed as I go along, typing
 words into vim and saving it in files (sounds easy, doesn't it?).
 
 And what do you know? We've already covered Python programming (with Pelican_),
-and music[2].
+and music [2]_.
 
 Anyway, it's been nice meeting you, and I hope we meet again sometime soon.
 
