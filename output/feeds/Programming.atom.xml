@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/all.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-02-26T20:08:00+01:00</updated><entry><title>Sensible JavaScript testing and some murders</title><link href="http://frode.danielsen.net/blog/sensible-javascript-testing-and-some-murders.html" rel="alternate"></link><updated>2013-02-26T20:08:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-02-26:sensible-javascript-testing-and-some-murders.html</id><summary type="html">&lt;p&gt;I was lucky to get a seat for the &lt;a class="reference external" href="http://www.meetup.com/oslo-xp/events/104594972/"&gt;first Oslo XP Meetup of 2013&lt;/a&gt;, helped in part by
+<feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/Programming.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-02-26T20:08:00+01:00</updated><entry><title>Sensible JavaScript testing and some murders</title><link href="http://frode.danielsen.net/blog/sensible-javascript-testing-and-some-murders.html" rel="alternate"></link><updated>2013-02-26T20:08:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-02-26:sensible-javascript-testing-and-some-murders.html</id><summary type="html">&lt;p&gt;I was lucky to get a seat for the &lt;a class="reference external" href="http://www.meetup.com/oslo-xp/events/104594972/"&gt;first Oslo XP Meetup of 2013&lt;/a&gt;, helped in part by
 GitHub &lt;a class="footnote-reference" href="#id4" id="id1"&gt;[1]&lt;/a&gt;. The topic was &amp;quot;Why does JavaScript testing have to be so DAMN
 hard?&amp;quot;, which is something I've been thinking about quite a bit lately
 myself. Or rather, &amp;quot;how can I simplify the process of JavaScript testing and
@@ -90,38 +90,4 @@ Charles' henchmen suggests, in order to succeed with the plan, to
 &amp;quot;First, kill all the lawyers&amp;quot;.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</summary><category term="javascript"></category><category term="tdd"></category><category term="meetup"></category><category term="work culture"></category></entry><entry><title>Endtroducing…</title><link href="http://frode.danielsen.net/blog/endtroducing.html" rel="alternate"></link><updated>2013-01-27T04:21:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-01-27:endtroducing.html</id><summary type="html">&lt;p&gt;Hello, world! Famous first hacker words, famous last blog words &lt;a class="footnote-reference" href="#id3" id="id1"&gt;[1]&lt;/a&gt;? It's been
-quite a few years thinking &amp;quot;I should get a blog up&amp;quot;, with some failed
-&amp;quot;down the rabbit hole&amp;quot; attempts, but hopefully we're all set for a fun ride
-this time.&lt;/p&gt;
-&lt;p&gt;This will be my personal outlet – what else are blogs? – but the plan has not
-been written yet. It will probably not have any sharp focus, at least not
-sharper a focus than my life and thoughts (which can be quite blurry at times).&lt;/p&gt;
-&lt;p&gt;I will write about what interests me. Currently that may range from
-programming, to food; wine; beer, or from music, to travelling and all the way to
-my newly reignited interest of dressing like a grownup, to put it in the words
-of &lt;a class="reference external" href="http://putthison.com"&gt;Put This On&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Technically this is very much a work in progress, or an iterative process as
-you might call it. I've got the basic engine up, running on &lt;a class="reference external" href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;. As time
-moves along and content is written, I hope to also mold a more personal design
-too. And the content structure will very much be formed as I go along, typing
-words into vim and saving it in files (sounds easy, doesn't it?).&lt;/p&gt;
-&lt;p&gt;And what do you know? We've already covered Python programming (with &lt;a class="reference external" href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;),
-and music &lt;a class="footnote-reference" href="#id4" id="id2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Anyway, it's been nice meeting you, and I hope we meet again sometime soon.&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
-&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;WordPress, one of the most used blogging platforms, comes with a
-pre-installed post titled &amp;quot;Hello, World!&amp;quot;. &lt;a class="reference external" href="http://www.google.no/#hl=en&amp;amp;q=hello+world+%22welcome+to+wordpress%22"&gt;Google shows us&lt;/a&gt; there's plenty of
-blogs with that post, and many probably never wrote any other posts after
-setting things up.&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="docutils footnote" frame="void" id="id4" rules="none"&gt;
-&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The title shamelessly refers to the debut album &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Endtroducing"&gt;Endtroducing…&lt;/a&gt; by &lt;a class="reference external" href="http://en.wikipedia.org/wiki/DJ_Shadow"&gt;DJ Shadow&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</summary></entry></feed>
+</summary><category term="javascript"></category><category term="tdd"></category><category term="meetup"></category><category term="work culture"></category></entry></feed>

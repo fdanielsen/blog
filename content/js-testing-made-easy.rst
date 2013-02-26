@@ -4,6 +4,8 @@ Sensible JavaScript testing and some murders
 :date: 2013-02-26 20:08
 :summary: Notes from an Oslo XP Meetup about JavaScript testing, and a bonus
           talk.
+:category: Programming
+:tags: javascript, tdd, meetup, work culture
 
 I was lucky to get a seat for the `first Oslo XP Meetup of 2013
 <http://www.meetup.com/oslo-xp/events/104594972/>`_, helped in part by
