@@ -57,10 +57,10 @@ After a short break from Magnars talk, a bonus talk by `Tim Berglund
 given. We were lucky enough to be the audience of Tims first ever (alpha)
 public presentation of a talk he titled "First, Let's Kill the Product
 Owners"[2]_. Having been to a few talks that was poorly presented I wouldn't
-have thought this was Tims first presentation if this talk hadn't he
+have thought this was Tims first presentation of this talk hadn't he
 mentioned it, but that only speaks to Tims qualities as a public speaker.
-The talk had a good flow, apart from an arcade throwing Tim off several
-times with funny remarks, and Tim presented his thoughts very well.
+The talk had a good flow, apart from an arcade game throwing Tim off
+several times with funny remarks, and Tim presented his thoughts very well.
 
 My very first thoughts when Tim started his talk was "this aligns very well
 with Valve's philosophy", something my colleague `Anders
