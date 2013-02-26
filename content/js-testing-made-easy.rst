@@ -97,7 +97,9 @@ it), and evolving my company even further along the lines of Valve and GitHub.
     colliding with some of the participants' calendar. It also meant that
     Magnar's talk had to be presented in English too.
 .. [2] The title is, according to Tim Berglund, in reference to
-    Shakespeare's play about Henry VI in which a rebellion against
-    king Henry VI is executed by Charles (Dauphin of France). One of
-    Charles' henchmen suggests, in order to succeed with the plan, to
-    "First, kill all the lawyers".
+    Shakespeare's `play about Henry VI`_ in which a rebellion against
+    king Henry VI is executed by `Jack Cade`_. One of Jack's rebels says,
+    in order to succeed with the plan: "The first thing we do, let's kill
+    all the lawyers".
+.. _play about Henry VI: http://en.wikipedia.org/wiki/Henry_VI,_Part_2
+.. _Jack Cade: http://en.wikipedia.org/wiki/Jack_Cade
