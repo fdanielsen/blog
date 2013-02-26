@@ -7,7 +7,7 @@ Sensible JavaScript testing and some murders
 
 I was lucky to get a seat for the `first Oslo XP Meetup of 2013
 <http://www.meetup.com/oslo-xp/events/104594972/>`_, helped in part by
-GitHub[1]_. The topic was "Why does JavaScript testing have to be so DAMN
+GitHub [1]_. The topic was "Why does JavaScript testing have to be so DAMN
 hard?", which is something I've been thinking about quite a bit lately
 myself. Or rather, "how can I simplify the process of JavaScript testing and
 avoid integration tests as much as possible?"
@@ -15,7 +15,7 @@ avoid integration tests as much as possible?"
 The presentation was given by `Magnar Sveen <https://twitter.com/magnars>`_
 with examples from his work as a consultant at `FINN <http://finn.no/>`_.
 Considering that he had to translate and run his whole presentation in
-English[1]_ on short notice, he did a great job. Good examples, fun and
+English [1]_ on short notice, he did a great job. Good examples, fun and
 opinioned. Though as a future presenter myself I took note that I should
 never, ever, put important things at the bottom of my slides. If need be,
 add interstitiary slides that display the bottom parts higher up. Heads at
