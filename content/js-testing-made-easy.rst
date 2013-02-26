@@ -92,7 +92,8 @@ it), and evolving my company even further along the lines of Valve and GitHub.
 .. [1] A couple of GitHub employees was by chance visiting Oslo, and Tim
     Berglund as one of them was given the opportunity to present a bonus
     talk for this meetup. This meant the event had to be moved slightly,
-    colliding with some of the participants' calendar.
+    colliding with some of the participants' calendar. It also meant that
+    Magnar's talk had to be presented in English too.
 .. [2] The title is, according to Tim Berglund, in reference to
     Shakespeare's play about Henry VI in which a rebellion against
     king Henry VI is executed by Charles (Dauphin of France). One of
