@@ -76,8 +76,8 @@ business people with some technological knowledge, being responsible for
 defining what should be developed and how that is detrimental to a developers
 work. His example being a Product Owner asking a developer to pay no attention
 to the user interface while developing an internal tool. And bugs? "We'll ship
-with it, it's an internal tool." Which undermines any professional developer's
-skills, basically saying that she should make something crappy.
+with it, it's an internal tool." Both of which undermines any professional
+developer's skills, basically saying that she should make something crappy.
 
 Tim also brought up some typical excuses for not implementing this philosophy
 and the problem of who'll choose the "crappy tasks" when everyone picks for
