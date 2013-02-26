@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/all-en.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-01-27T04:21:00+01:00</updated><entry><title>Endtroducing…</title><link href="http://frode.danielsen.net/blog/endtroducing.html" rel="alternate"></link><updated>2013-01-27T04:21:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-01-27:endtroducing.html</id><summary type="html">&lt;p&gt;Hello, world! Famous first hacker words, famous last blog words &lt;a class="footnote-reference" href="#id3" id="id1"&gt;[1]&lt;/a&gt;? It's been
+<feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/all-en.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-02-26T20:08:00+01:00</updated><entry><title>Sensible JavaScript testing and some murders</title><link href="http://frode.danielsen.net/blog/sensible-javascript-testing-and-some-murders.html" rel="alternate"></link><updated>2013-02-26T20:08:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-02-26:sensible-javascript-testing-and-some-murders.html</id><summary type="html">&lt;p&gt;I was lucky to get a seat for the &lt;a class="reference external" href="http://www.meetup.com/oslo-xp/events/104594972/"&gt;first Oslo XP Meetup of 2013&lt;/a&gt;, helped in part by
+GitHub[1]_. The topic was &amp;quot;Why does JavaScript testing have to be so DAMN
+hard?&amp;quot;, which is something I've been thinking about quite a bit lately
+myself. Or rather, &amp;quot;how can I simplify the process of JavaScript testing and
+avoid integration tests as much as possible?&amp;quot;&lt;/p&gt;
+&lt;p&gt;The presentation was given by &lt;a class="reference external" href="https://twitter.com/magnars"&gt;Magnar Sveen&lt;/a&gt;
+with examples from his work as a consultant at &lt;a class="reference external" href="http://finn.no/"&gt;FINN&lt;/a&gt;.
+Considering that he had to translate and run his whole presentation in
+English[1]_ on short notice, he did a great job. Good examples, fun and
+opinioned. Though as a future presenter myself I took note that I should
+never, ever, put important things at the bottom of my slides. If need be,
+add interstitiary slides that display the bottom parts higher up. Heads at
+the front blocking people's view is bound to happen a lot.&lt;/p&gt;
+&lt;p&gt;The main point of his talk as I got it was to be a programmer, as opposed to
+being a scripter, with his definition of this being to use abstractions. I
+guess it's true, and I've been guilty of this myself, that a lot of JavaScript
+&amp;quot;programmers&amp;quot; jump directly into implementing features quickly with the
+powerful toolset jQuery gives. Without giving much thought about reusability
+or… testing.&lt;/p&gt;
+&lt;p&gt;Magnars solution to this was focusing on writing &amp;quot;heavily tested, strictly
+bounded, whiny components&amp;quot;. His focus on components rather than a MVC mindset
+is sensible, components simply being reusable and self contained objects. It
+boils it down to the core of programming in JavaScript, rather than a more
+specific model. Granted, Magnar didn't fancy the MVC model much in general for
+JavaScript, but his point transcended that. But specifically for testing it
+helps resolve the challenge with being so dependent on a DOM. If you write
+components that are provided everything they need, including the DOM nodes,
+you can write tests more easily without including large HTML structures.&lt;/p&gt;
+&lt;p&gt;But Magnars strangest idea, to me, was the whiny part of components. Well,
+basically it just means that your components scream (throws exceptions) when
+something you're supposed to provide them is missing. This is something I've
+done myself, even as recently as this last weekend on a small project. But
+Magnar takes this further into testing, suggesting we only write integration
+tests on the combined uses of components and checking for no exceptions.
+Putting components together is basically like writing mocks for testing, he
+says. To keep your code DRY there's no use of writing separate tests for the
+code that sets the components up, if you write heavily tested and whiny
+components that throw exceptions when their requirements are not provided. An
+interesting method and something I'll consider myself in the future.&lt;/p&gt;
+&lt;p&gt;After a short break from Magnars talk, a bonus talk by &lt;a class="reference external" href="https://twitter.com/tlberglund"&gt;Tim Berglund&lt;/a&gt; of &lt;a class="reference external" href="http://github.com/"&gt;GitHub&lt;/a&gt; was
+given. We were lucky enough to be the audience of Tims first ever (alpha)
+public presentation of a talk he titled &amp;quot;First, Let's Kill the Product
+Owners&amp;quot;&lt;a class="footnote-reference" href="#id3" id="id1"&gt;[2]&lt;/a&gt;. Having been to a few talks that was poorly presented I wouldn't
+have thought this was Tims first presentation if this talk hadn't he
+mentioned it, but that only speaks to Tims qualities as a public speaker.
+The talk had a good flow, apart from an arcade throwing Tim off several
+times with funny remarks, and Tim presented his thoughts very well.&lt;/p&gt;
+&lt;p&gt;My very first thoughts when Tim started his talk was &amp;quot;this aligns very well
+with Valve's philosophy&amp;quot;, something my colleague &lt;a class="reference external" href="http:twitter.com/asteinlein"&gt;Anders&lt;/a&gt; brought up a while ago as a goal for our team.
+Since this was a bonus talk, and the subject is quite deep, I'll keep this
+summary brief: By eliminating managers, giving every employee ownership and
+creative freedom, you'll end up with highly productive people that create more
+value for your customers.&lt;/p&gt;
+&lt;p&gt;Specifically to this talk Tim was talking about Product Owners from an
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Agile_development"&gt;Agile&lt;/a&gt; view, meaning
+business people with some technological knowledge, being responsible for
+defining what should be developed and how that is detrimental to a developers
+work. His example being a Product Owner asking a developer to pay no attention
+to the user interface while developing an internal tool. And bugs? &amp;quot;We'll ship
+with it, it's an internal tool.&amp;quot; Which undermines any professional developer's
+skills, basically saying that she should make something crappy.&lt;/p&gt;
+&lt;p&gt;Tim also brought up some typical excuses for not implementing this philosophy
+and the problem of who'll choose the &amp;quot;crappy tasks&amp;quot; when everyone picks for
+themselves what to work on. These were probably the points of his talk he
+could need some input and experience from others on, but I agree with the gist
+of it so far. Excuses are avoiding thinking about the problem thoroughly.
+&amp;quot;Crappy tasks&amp;quot; are not worth doing if they don't serve any purpose, and tasks
+that serve a purpose are not &amp;quot;crappy&amp;quot; by definition.&lt;/p&gt;
+&lt;p&gt;All in all this was a very good meetup, and I look forward to applying myself
+even more at writing more testable JavaScript code (thus writing tests for
+it), and evolving my company even further along the lines of Valve and GitHub.&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;A couple of GitHub employees was by chance visiting Oslo, and Tim
+Berglund as one of them was given the opportunity to present a bonus
+talk for this meetup. This meant the event had to be moved slightly,
+colliding with some of the participants' calendar.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The title is, according to Tim Berglund, in reference to
+Shakespeare's play about Henry VI in which a rebellion against
+king Henry VI is executed by Charles (Dauphin of France). One of
+Charles' henchmen suggests, in order to succeed with the plan, to
+&amp;quot;First, kill all the lawyers&amp;quot;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</summary></entry><entry><title>Endtroducing…</title><link href="http://frode.danielsen.net/blog/endtroducing.html" rel="alternate"></link><updated>2013-01-27T04:21:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-01-27:endtroducing.html</id><summary type="html">&lt;p&gt;Hello, world! Famous first hacker words, famous last blog words &lt;a class="footnote-reference" href="#id3" id="id1"&gt;[1]&lt;/a&gt;? It's been
 quite a few years thinking &amp;quot;I should get a blog up&amp;quot;, with some failed
 &amp;quot;down the rabbit hole&amp;quot; attempts, but hopefully we're all set for a fun ride
 this time.&lt;/p&gt;
