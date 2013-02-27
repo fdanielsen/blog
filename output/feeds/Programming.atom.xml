@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>head-spinoff</title><link href="http://frode.danielsen.net/blog/" rel="alternate"></link><link href="http://frode.danielsen.net/blog/feeds/Programming.atom.xml" rel="self"></link><id>http://frode.danielsen.net/blog/</id><updated>2013-02-26T20:08:00+01:00</updated><entry><title>Sensible JavaScript testing and some murders</title><link href="http://frode.danielsen.net/blog/sensible-javascript-testing-and-some-murders.html" rel="alternate"></link><updated>2013-02-26T20:08:00+01:00</updated><author><name>Frode Danielsen</name></author><id>tag:frode.danielsen.net/blog,2013-02-26:sensible-javascript-testing-and-some-murders.html</id><summary type="html">&lt;p&gt;I was lucky to get a seat for the &lt;a class="reference external" href="http://www.meetup.com/oslo-xp/events/104594972/"&gt;first Oslo XP Meetup of 2013&lt;/a&gt;, helped in part by
-GitHub &lt;a class="footnote-reference" href="#id4" id="id1"&gt;[1]&lt;/a&gt;. The topic was &amp;quot;Why does JavaScript testing have to be so DAMN
-hard?&amp;quot;, which is something I've been thinking about quite a bit lately
-myself. Or rather, &amp;quot;how can I simplify the process of JavaScript testing and
-avoid integration tests as much as possible?&amp;quot;&lt;/p&gt;
+&lt;a class="reference external" href="http://github.com/"&gt;GitHub&lt;/a&gt; &lt;a class="footnote-reference" href="#id4" id="id1"&gt;[1]&lt;/a&gt;. The topic was &amp;quot;Why does JavaScript testing
+have to be so DAMN hard?&amp;quot;, which is something I've been thinking about quite
+a bit lately myself. Or rather, &amp;quot;how can I simplify the process of JavaScript
+testing and avoid integration tests as much as possible?&amp;quot;&lt;/p&gt;
 &lt;p&gt;The presentation was given by &lt;a class="reference external" href="https://twitter.com/magnars"&gt;Magnar Sveen&lt;/a&gt;
 with examples from his work as a consultant at &lt;a class="reference external" href="http://finn.no/"&gt;FINN&lt;/a&gt;.
 Considering that he had to translate and run his whole presentation in
@@ -47,7 +47,7 @@ mentioned it, but that only speaks to Tims qualities as a public speaker.
 The talk had a good flow, apart from an arcade game throwing Tim off
 several times with funny remarks, and Tim presented his thoughts very well.&lt;/p&gt;
 &lt;p&gt;My very first thoughts when Tim started his talk was &amp;quot;this aligns very well
-with Valve's philosophy&amp;quot;, something my colleague &lt;a class="reference external" href="http:twitter.com/asteinlein"&gt;Anders&lt;/a&gt; brought up a while ago as a goal for our team.
+with Valve's philosophy&amp;quot;, something my colleague &lt;a class="reference external" href="http://twitter.com/asteinlein"&gt;Anders&lt;/a&gt; brought up a while ago as a goal for our team.
 Since this was a bonus talk, and the subject is quite deep, I'll keep this
 summary brief: By eliminating managers, giving every employee ownership and
 creative freedom, you'll end up with highly productive people that create more

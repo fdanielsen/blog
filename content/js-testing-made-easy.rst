@@ -9,10 +9,10 @@ Sensible JavaScript testing and some murders
 
 I was lucky to get a seat for the `first Oslo XP Meetup of 2013
 <http://www.meetup.com/oslo-xp/events/104594972/>`_, helped in part by
-GitHub [1]_. The topic was "Why does JavaScript testing have to be so DAMN
-hard?", which is something I've been thinking about quite a bit lately
-myself. Or rather, "how can I simplify the process of JavaScript testing and
-avoid integration tests as much as possible?"
+GitHub_ [1]_. The topic was "Why does JavaScript testing
+have to be so DAMN hard?", which is something I've been thinking about quite
+a bit lately myself. Or rather, "how can I simplify the process of JavaScript
+testing and avoid integration tests as much as possible?"
 
 The presentation was given by `Magnar Sveen <https://twitter.com/magnars>`_
 with examples from his work as a consultant at `FINN <http://finn.no/>`_.
@@ -53,7 +53,7 @@ components that throw exceptions when their requirements are not provided. An
 interesting method and something I'll consider myself in the future.
 
 After a short break from Magnars talk, a bonus talk by `Tim Berglund
-<https://twitter.com/tlberglund>`_ of `GitHub <http://github.com/>`_ was
+<https://twitter.com/tlberglund>`_ of GitHub_ was
 given. We were lucky enough to be the audience of Tims first ever (alpha)
 public presentation of a talk he titled "First, Let's Kill the Product
 Owners"[2]_. Having been to a few talks that was poorly presented I wouldn't
@@ -64,7 +64,7 @@ several times with funny remarks, and Tim presented his thoughts very well.
 
 My very first thoughts when Tim started his talk was "this aligns very well
 with Valve's philosophy", something my colleague `Anders
-<http:twitter.com/asteinlein>`_ brought up a while ago as a goal for our team.
+<http://twitter.com/asteinlein>`_ brought up a while ago as a goal for our team.
 Since this was a bonus talk, and the subject is quite deep, I'll keep this
 summary brief: By eliminating managers, giving every employee ownership and
 creative freedom, you'll end up with highly productive people that create more
@@ -101,5 +101,6 @@ it), and evolving my company even further along the lines of Valve and GitHub.
     king Henry VI is executed by `Jack Cade`_. One of Jack's rebels says,
     in order to succeed with the plan: "The first thing we do, let's kill
     all the lawyers".
+.. _GitHub: http://github.com/
 .. _play about Henry VI: http://en.wikipedia.org/wiki/Henry_VI,_Part_2
 .. _Jack Cade: http://en.wikipedia.org/wiki/Jack_Cade
